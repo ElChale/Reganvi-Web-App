@@ -191,7 +191,7 @@ MEDIA_URL = '/images/'
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    '44.208.246.187',
+    'http://44.208.246.187:8000',
     'http://reganvi-web-app.s3-website-us-east-1.amazonaws.com'
 ]
 
