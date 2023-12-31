@@ -188,7 +188,7 @@ MEDIA_URL = '/images/'
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    'http://127.0.0.1',  
+    'http://44.208.246.187',  
 ]
 
 STATICFILES_DIRS = [BASE_DIR / 'static',]
