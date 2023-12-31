@@ -34,7 +34,7 @@ ALLOWED_HOSTS = [
     '.vercel.app', 
     '.now.sh', 
     'https://test-2-ivjz87ixo-elchale.vercel.app/',
-    'http://44.208.246.187:8000',
+    'http://44.208.246.187',
     'http://reganvi-web-app.s3-website-us-east-1.amazonaws.com'
 ]
 
