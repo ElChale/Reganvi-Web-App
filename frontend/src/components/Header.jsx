@@ -52,7 +52,10 @@ function Header({ userInfo }) {
                                           ) : (
                                                 <Nav.Link onClick={userPage}>
                                                       <img
-                                                            src={BASE_URL + '/images/Profile.jpg'}
+                                                            // Antiguo
+                                                            // src={BASE_URL + '/images/Profile.jpg'}
+                                                            // Nuevo
+                                                            src = "https://reganvi-web-app.s3.amazonaws.com/images/profile.jpg"
                                                             alt="Profile"
                                                             className="w-10 h-auto rounded-full"
                                                       />

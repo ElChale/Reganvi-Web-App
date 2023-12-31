@@ -26,10 +26,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&(@$objxo_%)6p%m8z%m)!3bx%07re%a^h7(d*e0h5=!-xicqa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 #---EDITADO
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh', 'https://test-2-ivjz87ixo-elchale.vercel.app/']
+ALLOWED_HOSTS = [
+    '127.0.0.1', 
+    '.vercel.app', 
+    '.now.sh', 
+    'https://test-2-ivjz87ixo-elchale.vercel.app/'
+]
 
 
 
@@ -92,10 +97,23 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+## Sqlite3
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+## Postgres
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'reganvi_data', # Nombre de la base
+        'USER': 'postgres', # Default
+        'PASSWORD': '123',
+        'HOST': '44.208.246.187', # Cambiar en prod
+        'PORT': '5432', # Default
     }
 }
 

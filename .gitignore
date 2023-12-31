@@ -1,0 +1,17 @@
+### ingore for python virtualenv
+# Archivos generados por Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Archivos de configuración local
+.env
+.local/
+db.sqlite3
+
+# Directorio de medios
+/media/
+
+# Entorno virtual
+venv/

@@ -14,7 +14,10 @@ function HomeScreen() {
 
 
       const firstBanner = {
-            backgroundImage: `url(${BASE_URL + '/images/RecyclingFirstBanner1.png'})`, 
+            // Antiguo
+            // backgroundImage: `url(${BASE_URL + '/images/RecyclingFirstBanner1.png'})`, 
+            // Nuevp
+            backgroundImage: `url("https://reganvi-web-app.s3.amazonaws.com/images/RecyclingFirstBanner1.png")`,
             backgroundSize: 'cover', 
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'center', 
@@ -22,7 +25,10 @@ function HomeScreen() {
       }; //style={firstBanner}
 
       const secondBanner = {
-            backgroundImage: `url(${BASE_URL + '/images/RecyclingFirstBanner.png'})`, 
+            // Antiguo
+            // backgroundImage: `url(${BASE_URL + '/images/RecyclingFirstBanner.png'})`, 
+            // Nuevo
+            backgroundImage: `url("https://reganvi-web-app.s3.amazonaws.com/images/RecyclingFirstBanner.png")`,
             backgroundSize: 'cover', 
             backgroundRepeat: 'no-repeat', 
             backgroundPosition: 'center', 
@@ -31,41 +37,68 @@ function HomeScreen() {
       
       const companyLogos = [
             {
-                  image: `${BASE_URL + "/images/logo1sanmiguelindustrias.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/logo1sanmiguelindustrias.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/logo1sanmiguelindustrias.png"
             },
             {
-                  image: `${BASE_URL + "/images/logo2pamolsa.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/logo2pamolsa.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/logo2pamolsa.png"
             },
             {
-                  image: `${BASE_URL + "/images/logo3solpack.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/logo3solpack.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/logo3solpack.png"
             },
             {
-                  image: `${BASE_URL + "/images/logo4papelera.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/logo4papelera.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/logo4papelera.png"
             },
             {
-                  image: `${BASE_URL + "/images/logo5g&f.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/logo5g&f.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/logo5g&f.png"
             },
       ]
       const mainProducts = [
             {
                   title: "Botellas de plástico",
                   description:"¡Descubre la belleza de la sostenibilidad con nuestras botellas de plástico recicladas! Cada botella ha pasado por un proceso de transformación que no solo contribuye al cuidado del medio ambiente, sino que también te ofrece un producto de alta calidad. Nuestro compromiso con la reutilización del plástico no solo reduce la cantidad de residuos, sino que también ofrece una opción ecológica y elegante para tus necesidades diarias.",
-                  image: `${BASE_URL + "/images/1botellas.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/1botellas.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/1botellas.png"
             },
             {
                   title: "Cartón",
                   description:"Abraza la practicidad y la consciencia ecológica con nuestro cartón reciclado. Cada caja cuenta una historia de sostenibilidad, transformando materiales usados en soluciones innovadoras. Estas cajas recicladas no solo son resistentes y versátiles, sino que también representan un paso hacia un futuro más verde. Úsalas para envolver tus regalos o almacenar tus pertenencias con estilo, sabiendo que estás haciendo una elección responsable.",
-                  image: `${BASE_URL + "/images/2carton.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/2carton.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/2carton.png"
             },
             {
                   title: "Aluminio",
                   description:"Nuestro aluminio reciclado redefine la durabilidad y la elegancia. Proveniente de fuentes recicladas, este material ha sido cuidadosamente transformado para brindarte productos que destacan por su resistencia y ligereza. Desde envases hasta utensilios de cocina, cada artículo de aluminio reciclado es una declaración de compromiso con la preservación del planeta. Únete a nosotros en este viaje hacia un estilo de vida más sostenible sin sacrificar calidad ni estilo.",
-                  image: `${BASE_URL + "/images/3aluminio.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/3aluminio.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/3aluminio.png"
             },
             {
                   title: "Chatarra",
                   description:"La chatarra reciclada no solo es un conjunto de metales y materiales diversos, sino una oportunidad para la creatividad y la innovación. Cada pieza cuenta una historia única de reutilización y transformación. Desde esculturas hasta elementos decorativos, nuestra chatarra reciclada ofrece una segunda vida a materiales previamente descartados. Explora la belleza de la imperfección y la originalidad en cada pieza, contribuyendo al ciclo continuo de reciclaje y reinvención.",
-                  image: `${BASE_URL + "/images/4chatarra.png"}`
+                  // Antiguo
+                  // image: `${BASE_URL + "/images/4chatarra.png"}`
+                  // Nuevo
+                  image: "https://reganvi-web-app.s3.amazonaws.com/images/4chatarra.png"
             },
       ]
 
@@ -87,7 +120,6 @@ function HomeScreen() {
                                     </button>
                               </OverlayTrigger>
                         </Container>
-          
                   </div>
             </div>
             <Container className="my-20">
