@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://127.0.0.1:8000'
+export const BASE_URL = 'http://44.208.246.187:8000'
 
 export const countryCodes = [
       { code: '+1', name: 'United States' },
