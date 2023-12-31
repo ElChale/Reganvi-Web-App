@@ -26,14 +26,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&(@$objxo_%)6p%m8z%m)!3bx%07re%a^h7(d*e0h5=!-xicqa'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 #---EDITADO
 ALLOWED_HOSTS = [
     '127.0.0.1', 
     '.vercel.app', 
     '.now.sh', 
-    'https://test-2-ivjz87ixo-elchale.vercel.app/'
+    'https://test-2-ivjz87ixo-elchale.vercel.app/',
+    'http://44.208.246.187:8000',
+    'http://reganvi-web-app.s3-website-us-east-1.amazonaws.com'
 ]
 
 
